@@ -1,0 +1,35 @@
+name: LifeSteal
+main: com.al1kss.ls.Main
+version: '1.5'
+
+api-version: '1.20'
+commands:
+  lifesteal:
+    description: "This is a command"
+    usage: "/lifesteal"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
+  godmode:
+    description: "This is a command"
+    usage: "/godmode"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
+  stats:
+    description: "This is a command"
+    usage: "/stats"
+    permission: foo.bar
+    permission-message: "You do not have permission to use this command"
+  heart:
+    description: "This is a command"
+    usage: "/heart"
+    permission: foo.bar
+    permission-message: "You do not have permission to use this command"
+  inventory:
+    description: "This is a command"
+    usage: "/inventory"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
+
+permissions:
+  foo.bar:
+    default: true
